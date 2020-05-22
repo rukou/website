@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Introduction to Rukou
+title: Introduction to Rùkǒu
 category: general
 order: 100
 ---

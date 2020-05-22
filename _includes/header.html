@@ -2,7 +2,7 @@
   <div class="container">
     <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
       <img src="{{ "/assets/rukou.png" | relative_url }}" width="30" height="30" alt="">
-      入口 (Rùkǒu)
+      入口 (<span style="text-decoration: underline;" data-toggle="tooltip" data-placement="bottom" title="in English: Entrance">Rùkǒu</span>)
     </a>
 
     {%- assign page_paths = site.header_pages -%}
@@ -25,4 +25,9 @@
       
     </div>
   </div>
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
 </nav>
