@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+<div class="container-fluid">
+  <div class="row flex-xl-nowrap">
+<!-- left panel -->
+    <div class="col-12 col-md-3 col-xl-2" style="background-color: var(--light);">
+      <nav class="bd-links" id="bd-docs-nav">
+        {% assign docs_by_category = site.docs | group_by: "category" %}
+        {% for cat in site.categories-order %}
+        {% assign currentCat = docs_by_category | where: 'name', cat | first %}
+          <div class="bd-toc-item row pt-1 pb-1 pl-2 mt-2" style="background-color:var(--secondary);color:var(--white);">
+            <a href="/docs/{{ currentCat.name }}.html" class="text-white">{{ currentCat.name }}</a>
+          </div>
+          {% assign sorted = currentCat.items | sort: "order" %}
+          {% for docsite in sorted %}
+            {%- if docsite.state != "hidden"  -%}
+            <div class="bd-toc-item" style="padding-top:0.3em;padding-bottom:0.3em;">
+            <a class="bd-toc-link" href="{{ docsite.url | relative_url }}">
+              {{ docsite.title }}
+            </a>
+            </div>
+            {%- endif -%}
+          {% endfor %}
+        {% endfor %}
+      </nav>
+    </div>
+<!-- right panel -->
+
+<main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">  
+  <div>
+
+    {%- if page.title -%}
+    <header>
+      <h1>{{ page.title }}</h1>
+    </header>
+    {%- endif -%}
+  
+    <section>
+      {{ content }}
+    </section>
+  
+  </div>
+  
+  
+    </div>
+  </div>
+</main>
+
+{%- include footer.html -%}
+
+</body>
+
+</html>

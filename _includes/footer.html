@@ -1,0 +1,37 @@
+
+<div class="py-3 border-top">
+  <div class="container">
+
+    <p class="h5 mb-3">{{ site.title | escape }}</p>
+
+    <div class="row">
+
+      <div class="col-sm">
+        <ul class="list-unstyled">
+          <li>
+            {%- if site.tagline -%}
+              {{ site.tagline | escape }}
+            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+            <li>
+              <a href="mailto:{{ site.email }}">
+                <i class="far fa-envelope"></i>
+                {{ site.email }}
+              </a>
+            </li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+
+      <div class="col-sm text-right">
+        <p>{{- site.description | escape -}}</p>
+        <p>Powered by APImeister Consulting GmbH <a href="/imprint.html">(imprint)</a></p>
+        
+      </div>
+
+    </div>
+
+  </div>
+</div>

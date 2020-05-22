@@ -1,0 +1,22 @@
+title: rukou - API routing for private endpoints
+email: contact@apimeister.com
+description: >-
+  Rukou is an API routing framework which allows private endpoints to be exposed on the internet.
+baseurl: "/"
+url: "http://rukou.io"
+github_username:  rukou
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - docs
+  - blog
+
+collections:
+  docs:
+    output: true
+
+categories-order:
+ - general
