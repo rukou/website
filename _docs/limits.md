@@ -12,5 +12,5 @@ Rùkǒu has the following limitations.
 
 | feature | Google PubSub | Azure ServiceBus | AWS SQS |
 | :-: | :-:| :-: | :-: |
-| message size |: 256kb :| 1MB | 256kb|
+| message size |: 10MB :| 1MB | 256kb|
 
