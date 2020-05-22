@@ -6,11 +6,11 @@ order: 100
 ---
 <style>
     @media only screen and (max-width: 617px) {
-  img {
+  img.fill-screen {
     width: 100%
   }
 }
 </style>
 <div class="container text-center">
-<img src="/assets/rukou-simplified.png" alt="rukou simplified view">
+<img class="fill-screen" src="/assets/rukou-simplified.png" alt="rukou simplified view">
 </div>
