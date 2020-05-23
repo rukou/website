@@ -19,19 +19,20 @@ This message type is used to transport incoming http-requests to an arbitrary en
 
 | Name | Cardinality | Datatype | Value | Description |
 | -  |  :-: | :-: | - | - |
-| X-MESSAGE-TYPE | required | string | http-request | type pf the message |
+| X-MESSAGE-TYPE | required | string | http-request | type of the message |
 | X-MESSAGE-VERSION | required | string | 2020-05-22 | Version of the message |
 | X-REQUEST-ID | required | string | sample: 953bd331-8a3f-41fe-887d-9c819201d32b |
 | X-ENDPOINT-TYPE | required | string | supported values are 'echo','http' |
+| X-ENDPOINT-ID | required |string | sample: 'ENDPOINT1' |
 | X-HTTP-METHOD | required | string | sample: 'GET', 'POST', 'DELETE' ... |
 | X-HTTP-PATH | required | string | sample: '/order/123' |
-| X-CONTENT-ISNULL | optional | string | supported values are 'true','false' |
+| X-HTTP-HOST | required | string | sample: 'api.domain.tld' | hostname of the request |
 | X-HTTP-TIMESTAMP | required | string | sample: 2020-05-01T09:12:32Z | received timestamp |
 | X-LOCAL2EDGE-DESTINATION | required | string | sample: local2edge | |
 
 ### Message Body
 
-The body contains a exact representation of the request body received by the edge layer.s
+The body contains a exact representation of the request body received by the edge layer.
 
 ## http-response
 
@@ -51,3 +52,4 @@ The body contains a exact representation of the request body received by the edg
 
 ### Message Body
 
+The body contains a exact representation of the response body received by the local layer.
