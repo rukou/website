@@ -17,7 +17,6 @@ The Edge Layer is provided through a Kubernetes deployment which can be hosted o
 The Routing Layer is usually implemented by a publicly available messaging provider.
 We currently support the following provider for message routing:
  
-* AWS SQS
 * Google PubSub
 * Azure ServiceBus
 

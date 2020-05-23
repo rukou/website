@@ -20,6 +20,6 @@ collections:
 
 categories-order:
  - general
-#  - edge layer
+ - edge layer
  - router layer
 #  - local layer
