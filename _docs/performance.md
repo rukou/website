@@ -10,11 +10,12 @@ We regularily perform performance test and will publish our results here.
 ## Test Scenario
 
 Last Update: 2020-05-23
+
 Tested Version: 1.0
 
-Edge Layer is GKE in europe-west4.
-Router Layer is Google PubSub.
-Local Layer is Macbook (also in Germany).
+* Edge Layer is GKE in europe-west4.
+* Router Layer is Google PubSub.
+* Local Layer is Macbook (also in Germany).
 
 ## Performance
 
