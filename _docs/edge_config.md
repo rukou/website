@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Configuration
-category: edge layer
+category: Edge Layer
 order: 200
 ---
 The edge layer is build for a kubernetes runtime. Therefore all configuration is handled through environment variables.

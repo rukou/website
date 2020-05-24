@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Limitations
-category: general
+category: General
 order: 500
 ---
 Rùkǒu has the following limitations.

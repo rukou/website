@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Q & A
-category: general
+category: General
 order: 900
 ---
 

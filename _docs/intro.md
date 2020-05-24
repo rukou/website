@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Introduction to Rùkǒu
-category: general
+category: General
 order: 100
 ---
 <style>

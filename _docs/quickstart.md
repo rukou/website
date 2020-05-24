@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Getting Started
-category: general
+category: General
 order: 200
 ---
 Deployments have to be separated into layers. Each layer has their own runtime and deployment instructions.

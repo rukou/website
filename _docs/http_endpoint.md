@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Http Endpoint
-category: edge layer
+category: Edge Layer
 order: 700
 ---
 

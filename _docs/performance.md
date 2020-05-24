@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Performance
-category: general
+category: General
 order: 500
 ---
 

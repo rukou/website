@@ -19,7 +19,7 @@ collections:
     output: true
 
 categories-order:
- - general
- - edge layer
- - router layer
+ - General
+ - Edge Layer
+ - Router Layer
  - Local Layer

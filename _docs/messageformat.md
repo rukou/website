@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Message Format
-category: router layer
+category: Router Layer
 order: 200
 ---
 All Communication between Edge Layer and Local Layer happen throough message based communication.

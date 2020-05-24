@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Jms Endpoint
-category: edge layer
+category: Edge Layer
 order: 700
 ---
 
