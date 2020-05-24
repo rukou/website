@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Configuration
-category: local layer
+category: Local Layer
 order: 200
 ---
 The local layer is build for any container runtime. Therefore all configuration is handled through environment variables.
