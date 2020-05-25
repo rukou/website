@@ -7,7 +7,7 @@ title: features
 * Expose Endpoints for API traffic
 * Multiple Stages with a single instance
 * Backend Routing based on header values (like Host, Path, Method)
-* Container-based runtime
+* Container-based runtime (Kubernetes deployment recommended)
 * Decoupled Backend through Messaging infrastructure
 
 
