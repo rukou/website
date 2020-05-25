@@ -15,3 +15,9 @@ ENV variable setup
 | ENDPOINTS_{id}_DESTINATION | queue/topic name | dynamicQueues/TEST |
 | ENDPOINTS_{id}_USER | user name | admin |
 | ENDPOINTS_{id}_PASSWORD | password | supersecret |
+
+<style>
+td, th {
+    border: 1px solid var(--secondary)
+}
+</style>

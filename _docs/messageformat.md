@@ -53,3 +53,9 @@ The body contains a exact representation of the request body received by the edg
 ### Message Body
 
 The body contains a exact representation of the response body received by the local layer.
+
+<style>
+td, th {
+    border: 1px solid var(--secondary)
+}
+</style>

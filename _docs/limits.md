@@ -20,3 +20,8 @@ Only Request/Reply is supported.
 | :-: | :-:| :-: |
 | message size |: 10MB :| 1MB |
 
+<style>
+td, th {
+    border: 1px solid var(--secondary)
+}
+</style>
