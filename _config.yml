@@ -11,6 +11,7 @@ plugins:
   - jekyll-feed
 
 header_pages:
+  - features
   - docs
   - blog
 

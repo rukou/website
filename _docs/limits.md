@@ -18,10 +18,11 @@ Only Request/Reply is supported.
 
 | feature | Google PubSub | Azure ServiceBus | 
 | :-: | :-:| :-: |
-| message size |: 10MB :| 1MB |
+| message size | 10MB | 1MB |
 
 <style>
 td, th {
-    border: 1px solid var(--secondary)
+    border: 1px solid var(--secondary);
+    padding: 0.5em;
 }
 </style>
