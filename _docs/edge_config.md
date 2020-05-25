@@ -17,3 +17,9 @@ ENV variable setup
 | ROUTESCONFIG_MY-PUBSUB-ROUTE_EDGE2LOCALTOPIC |
 | ROUTESCONFIG_MY-PUBSUB-ROUTE_LOCAL2EDGEPREFIX |
 | ROUTESCONFIG_MY-PUBSUB-ROUTE_SERVICEACCOUNT |
+
+<style>
+td, th {
+    border: 1px solid var(--secondary)
+}
+</style>
