@@ -7,14 +7,15 @@ order: 700
 
 ENV variable setup
 
-| Pattern | Description | Sample Value |
+| Pattern | Cardinality | Description | Sample Value |
 | ------- | ----------- | ------------ |
-| ENDPOINTS_{id}_TYPE | endpoint type | jms |
-| ENDPOINTS_{id}_INITIALFACTORY | jndi initial context factory | 'http://mbp.fritz.box:8161/api/message/TEST?type=queue' |
-| ENDPOINTS_{id}_PROVIDERURL | url | tcp://mbp.fritz.box:61616 |
-| ENDPOINTS_{id}_DESTINATION | queue/topic name | dynamicQueues/TEST |
-| ENDPOINTS_{id}_USER | user name | admin |
-| ENDPOINTS_{id}_PASSWORD | password | supersecret |
+| ENDPOINTS_{id}_TYPE | required | endpoint type | jms |
+| ENDPOINTS_{id}_INITIALFACTORY | required | jndi initial context factory | 'http://mbp.fritz.box:8161/api/message/TEST?type=queue' |
+| ENDPOINTS_{id}_PROVIDERURL | required | url | tcp://mbp.fritz.box:61616 |
+| ENDPOINTS_{id}_DESTINATION | required | queue/topic name | dynamicQueues/TEST |
+| ENDPOINTS_{id}_USER | optional | user name | admin |
+| ENDPOINTS_{id}_PASSWORD | optional | password | supersecret |
+| ENDPOINTS_{id}_CONNECTIONFACTORY | optional | Connectiont factory, if not given, defaults to 'ConnectionFactoctory' | QueueConnectionFactory |
 
 <style>
 td, th {
