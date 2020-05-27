@@ -15,7 +15,7 @@ ENV variable setup
 | ENDPOINTS_{id}_DESTINATION | required | queue/topic name | dynamicQueues/TEST |
 | ENDPOINTS_{id}_USER | optional | user name | admin |
 | ENDPOINTS_{id}_PASSWORD | optional | password | supersecret |
-| ENDPOINTS_{id}_CONNECTIONFACTORY | optional | Connectiont factory, if not given, defaults to 'ConnectionFactoctory' | QueueConnectionFactory |
+| ENDPOINTS_{id}_CONNECTIONFACTORY | optional | Connection factory, if not given, defaults to 'ConnectionFactory' | QueueConnectionFactory |
 
 <style>
 td, th {
