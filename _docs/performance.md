@@ -16,6 +16,7 @@ Tested Version: 1.0
 * Edge Layer is GKE in europe-west4.
 * Router Layer is Google PubSub.
 * Local Layer is a Azure VM (also in europe-west).
+* Enpoint is of type "Echo"
 
 ## Deployment Scenario 1
 
