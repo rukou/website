@@ -8,20 +8,21 @@ The local layer is build for any container runtime. Therefore all configuration 
 
 ENV variable setup
 
-| Pattern | Description | Sample Value |
-| ------- | ----------- | ------------ |
-| SOURCE_TYPE | router layer type | google-pubsub |
-| SOURCE_{property} | technology specific property | |
+| Pattern | Cardinality | Description | Sample Value |
+| ------- | ----------- | ----------- | ------------ |
+| SOURCE_TYPE | required | router layer type | google-pubsub |
+| SOURCE_{property} | required | technology specific property | |
+| SOURCE_TRUSTEDHOSTS | optional | provide a list of hosts (comma separated) the Local Layer is allowed to access, empty means no restrictions. | api.domain.tld,api-test.domain.tld
 
 <br>
 
 ### Google PubSub Routing
 
-| Name | Value |
-| ------- | ----------- |
-| SOURCE_TYPE | google-pubsub |
-| SOURCE_PUBSUB_SUBSCRIPTION | full name of the subscription |
-| SOURCE_PUBSUB_SERVICEACCOUNT | JSON value of the service account |
+| Name | Cardinality | Value |
+| ---- | ----------- | ----- |
+| SOURCE_TYPE | required | google-pubsub |
+| SOURCE_PUBSUB_SUBSCRIPTION | required | full name of the subscription |
+| SOURCE_PUBSUB_SERVICEACCOUNT | required | JSON value of the service account |
 
 <br>
 
@@ -35,10 +36,10 @@ ENV variable setup
 
 ### Azure Eventhub Routing
 
-| Name | Value |
-| ------- | ----------- |
-| SOURCE_TYPE | azure-eventhub |
-| SOURCE_EVENTHUB_URL | url of the eventhub (including access key) |
+| Name | Cardinality | Value |
+| ---- | ----------- | ----- |
+| SOURCE_TYPE | required | azure-eventhub |
+| SOURCE_EVENTHUB_URL | required | url of the eventhub (including access key) |
 
 <br>
 
