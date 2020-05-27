@@ -15,40 +15,21 @@ Tested Version: 1.0
 
 * Edge Layer is GKE in europe-west4.
 * Router Layer is Google PubSub.
-* Local Layer is Macbook (also in Germany).
+* Local Layer is a Azure VM (also in europe-west).
 
-## Performance
+## Deployment Scenario 1
 
-ApacheBench excerpt:
+![chart1](https://docs.google.com/spreadsheets/d/e/2PACX-1vQGfGdaKvIQu12Jas9U4qB0FVRzDei3Gl_-4Tm2HBirHkWiQ9TfgmcNqMJJiCt2-7WpsZPc9b8wAP0t/pubchart?oid=1585697066&format=image)
 
-    Concurrency Level:      10
-    Time taken for tests:   5.915 seconds
-    Complete requests:      500
-    Failed requests:        0
-    Total transferred:      119500 bytes
-    Total body sent:        114500
-    HTML transferred:       49000 bytes
-    Requests per second:    84.52 [#/sec] (mean)
-    Time per request:       118.309 [ms] (mean)
-    Time per request:       11.831 [ms] (mean, across all concurrent requests)
-    Transfer rate:          19.73 [Kbytes/sec] received
-                            18.90 kb/s sent
-                            38.63 kb/s total
+## Deployment Scenario 2
 
-    Connection Times (ms)
-                min  mean[+/-sd] median   max
-    Connect:       42   49   4.9     48      79
-    Processing:    56   66   8.1     64     136
-    Waiting:       55   65   7.9     63     136
-    Total:         99  115  10.2    113     191
+![chart1](https://docs.google.com/spreadsheets/d/e/2PACX-1vQGfGdaKvIQu12Jas9U4qB0FVRzDei3Gl_-4Tm2HBirHkWiQ9TfgmcNqMJJiCt2-7WpsZPc9b8wAP0t/pubchart?oid=892682536&format=image)
 
-    Percentage of the requests served within a certain time (ms)
-    50%    113
-    66%    116
-    75%    119
-    80%    120
-    90%    125
-    95%    132
-    98%    148
-    99%    167
-    100%    191 (longest request)
+## Deployment Scenario 3
+
+![chart1](https://docs.google.com/spreadsheets/d/e/2PACX-1vQGfGdaKvIQu12Jas9U4qB0FVRzDei3Gl_-4Tm2HBirHkWiQ9TfgmcNqMJJiCt2-7WpsZPc9b8wAP0t/pubchart?oid=22210124&format=image)
+
+
+More details are captured in our performance sheet:
+
+[response times in ms](https://docs.google.com/spreadsheets/d/1arWvO3LljiMtk64nGVgQyaghe4l9R2kAOvgvoVM6J-I/edit?usp=sharing)
