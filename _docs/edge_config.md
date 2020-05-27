@@ -25,6 +25,7 @@ Technology specific samples are avaible in the endpoint section.
 * [Echo Endpoint](echo_endpoint)
 * [Http Endpoint](http_endpoint)
 * [Jms Endpoint](jms_endpoint)
+* [Kafka Endpoint](kafka_endpoint)
 
 <br>
 <br>
