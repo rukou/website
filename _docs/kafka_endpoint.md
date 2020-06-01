@@ -9,9 +9,9 @@ ENV variable setup
 
 | Pattern | Cardinality | Description | Sample Value |
 | ------- | ----------- | ------------ |
-| ENDPOINTS_{id}_TYPE | required | endpoint type | kafka |
-| ENDPOINTS_{id}_BOOTSTRAPSERVERS | required | bootstrap servers | localhost:9092 |
-| ENDPOINTS_{id}_TOPIC | required | name of the topic | topic1 |
+| ENDPOINTS_{ID}_TYPE | required | endpoint type | kafka |
+| ENDPOINTS_{ID}_BOOTSTRAPSERVERS | required | bootstrap servers | localhost:9092 |
+| ENDPOINTS_{ID}_TOPIC | required | name of the topic | topic1 |
 
 <style>
 td, th {

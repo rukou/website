@@ -9,8 +9,8 @@ Since Rukou provides external access to internal systems, we take security very 
 
 **The Basics:**
 
-* all communication is enccrypted at all time
-* all data at rest is enccrypted at all time
+* All communication is encrypted at all time
+* All data at rest is encrypted at all time
 
 <br>
 
@@ -34,4 +34,4 @@ The Local Layer only accept incoming communication from Router Layer, there is n
 
 The configuration for the Local Layer only consists of the connection parameter to the Router Layer. No Enpoint information, like URL, User or Passwords will be persisted in the Local Layer.
 
-The Local Layer can be restricted to only access certain hosts within the intranet zone. This behavior can be set through the container environment and is **not** changeable by the Edge or Roouter Layer.
+The Local Layer can be restricted to only access certain hosts within the intranet zone. This behavior can be set through the container environment and is **not** changeable by the Edge or Router Layer.
