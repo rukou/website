@@ -18,7 +18,9 @@ Only Request/Reply is supported.
 
 | feature | Google PubSub | Azure ServiceBus | 
 | :-: | :-:| :-: |
-| message size | 10MB | 1MB |
+| Message Size | 10MB | 1MB |
+| Publisher Throughput | 1 GB/s |     |
+| Consumer Throughput | 2 GB/s |     |
 
 <style>
 td, th {

@@ -18,6 +18,8 @@ Since Rukou provides external access to internal systems, we take security very 
 
 All incoming communication is checked against a list of white-listed domains, that the server should accept connections for.
 
+Additional authentication can be enabled on a host level to further filter otu unwanted traffic.
+
 All incoming communication is filtered by an endpoint ruleset before any information is forwarded to the Router Layer.
 
 <br>
