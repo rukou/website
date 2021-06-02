@@ -43,12 +43,9 @@ The body contains a exact representation of the request body received by the edg
 | X-MESSAGE-TYPE | required | string | http-request | type pf the message |
 | X-MESSAGE-VERSION | required | string | 2020-05-22 | Version of the message |
 | X-REQUEST-ID | required | string | sample: 953bd331-8a3f-41fe-887d-9c819201d32b |
-| X-ENDPOINT-TYPE | required | string | supported values are 'echo','http' |
-| X-HTTP-METHOD | required | string | sample: 'GET', 'POST', 'DELETE' ... |
-| X-HTTP-PATH | required | string | sample: '/order/123' |
-| X-CONTENT-ISNULL | optional | string | supported values are 'true','false' |
-| X-HTTP-TIMESTAMP | required | string | sample: 2020-05-01T09:12:32Z | received timestamp |
 | X-HTTP-STATUSCODE | required | string | sample: 200 | http status code for the response |
+| X-CONTENT-ISNULL | optional | string | supported values are 'true','false' |
+| X-HTTP-TIMESTAMP | optional | string | sample: 2020-05-01T09:12:32Z | received timestamp |
 
 ### Message Body
 
