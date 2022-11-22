@@ -26,6 +26,7 @@ This message type is used to transport incoming http-requests to an arbitrary en
 | X-ENDPOINT-ID | required |string | sample: 'ENDPOINT1' |
 | X-HTTP-METHOD | required | string | sample: 'GET', 'POST', 'DELETE' ... |
 | X-HTTP-PATH | required | string | sample: '/order/123' |
+| X-HTTP-QUERY | optional | string | sample: 'param1=value1&param2=value2' |
 | X-HTTP-HOST | required | string | sample: 'api.domain.tld' | hostname of the request |
 | X-HTTP-TIMESTAMP | required | string | sample: 2020-05-01T09:12:32Z | received timestamp |
 | X-LOCAL2EDGE-DESTINATION | required | string | sample: local2edge | |
